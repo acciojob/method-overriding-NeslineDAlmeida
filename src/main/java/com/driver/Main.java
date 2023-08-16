@@ -5,6 +5,7 @@ public class Main {
 
         //B obj = new B();
         B obj1=new B();
+
         System.out.print(obj1.meth());
 
        // classA d = new classA();
@@ -17,9 +18,11 @@ public class Main {
             return "Invoking method from class A";
         }}
 
-         class B extends A {
 
+   class B extends A {
 
-            public String meth() {
-                return "Method is overridden in Extendend class B";
-            }}
+@Override
+public String meth() {
+    return "Method is overridden in Extendend class B";
+}
+            }
