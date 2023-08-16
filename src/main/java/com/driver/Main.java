@@ -6,6 +6,7 @@ public class Main {
         //B obj = new B();
         B obj1=new B();
 
+        System.out.println(obj1.meth());
         System.out.print(obj1.meth());
 
        // classA d = new classA();
